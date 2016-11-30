@@ -86,7 +86,14 @@ class Hand:
 	def rank_hand(self):
 		'''
 		ranks hand and sets hand_rank attribute
-		to approproate values
+		to appropriate values
+
+                Ranks = {Straight Flush : 1, 
+                         Three of a Kind: 2,
+                         Flush          : 3,
+                         Straight       : 4,
+                         Pair           : 5,
+                         High Card      : 6}
 		'''
 		self.sort_rank()
 		if self.isStraightFlush():
