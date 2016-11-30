@@ -16,7 +16,6 @@ class Hand:
 	def add_card(self, card):
 		''' adds cards to the hand '''
 		self.cards.append(card)
-		self.sort_rank
 
 	def sort_rank(self):
 		''' sorts the card in decreasing rank order '''

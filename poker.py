@@ -36,4 +36,5 @@ def output(game):
 		output += str(hand.player) + " "
 	return output
 
-print output(game)
+if __name__ == '__main__':
+  print output(game)
